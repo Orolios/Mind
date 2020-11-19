@@ -1,0 +1,19 @@
+{
+  "name": "mind_cad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node server.js"
+  },
+  "author": "Daniel Mendes dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^4.0.0",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "react": "^17.0.1",
+    "sqlite3": "^5.0.0"
+  }
+}
