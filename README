@@ -2,7 +2,7 @@ O projeto se dividirá em 2 partes (Frontend e Backend). Tal as quais terão as
 seguintes propriedades e funcionamentos:
 
 *Backend=> No back existirá um servidor em Node.js que demandará "express"e operará
-sobre a porta 8000 junto a um requerimento de um método db que estará em index.js que
+sobre a porta 8001 junto a um requerimento de um método db que estará em index.js que
 atuará na criação e leitura de um banco de dados tipo db criado pela biblioteca do
 sqlite3.
 
@@ -14,7 +14,22 @@ sqlite3.
             app.post- Faz a comunicação e back/front passando os elementos respectivos;
             app.patch- Faz updade dos dados.
             app.delete-deleta table do bd
+        
+
 
 
 
 Frontend=> distribuição de 4 páginas feitas em react
+        
+        Components=> Métodos que seriam utilizados para Post/Get/Delete;
+        Pages=>Páginas e seus códigos de dependência;
+               Admin=> Página do administrador (usará get Api) #funcional
+               Login=> Set página inicial, reage ao evento do botão, comparação e redirecionamento de página
+        Services
+                Api=> Importará Axios que faz o requerumento da porta da api
+        App=> Importa rotas e a vincula à um  
+        Index=> Faz render em app;
+        Routes=>Traça caminho das páginas no browser;
+                
+                
+        
